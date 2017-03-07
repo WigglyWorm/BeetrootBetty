@@ -406,6 +406,51 @@ section h3.section-subheading {
     text-align: center;
 }
 
+.align-center .filter li { 
+    padding: 0 10px 10px 10px;
+ }
+
+.filter li a {
+  display: block;
+  position: relative;
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #0d0d0d;
+  line-height: 20px;
+  padding-left: 0.1em;
+  }
+
+.text-light .filter li a { 
+    color: #ffffff;
+ }
+  
+.filter li a:after {
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 50%; margin-left: -0%;
+  width: 0%;
+  height: 1px;
+  background: #0d0d0d;
+  transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+  }
+  .text-light .filter li a:after { 
+    background: #ffffff; 
+  }
+  
+.filter li a:hover:after, .filter li a.active:after {
+  width: 100%;
+  margin-left: -50%;
+  }
+  
+
 .spacer {
   width: 100%;
   display: block;
