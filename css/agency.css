@@ -304,7 +304,7 @@ section h3.section-subheading {
     padding: 150px 0;
   }
 
-/*About*/
+/**************************** About section **************************************/
 
 #about {
   padding-bottom: 0;
@@ -367,144 +367,10 @@ section h3.section-subheading {
 }
 
 
-/*portfolio*/
-
-.masonry {
-  width: 120%;                /* DO NOT CHANGE THIS VALUE */
-  }
-  
-.masonry .masonry-item {
-  width: 24.98%;                /* will be overwritten by javascript */
-  margin-right: 0px;
-  margin-bottom: 0px;
-  float: left;
-  }
-  
-.masonry.masonry-spaced { 
-  /* optional to add a space to the left/right (160px = margin * 2) */
-  width: calc(120% - 160px);        /* DO NOT CHANGE 120% */      
-  margin-left: 80px;
-  margin-bottom: -80px;
-  } 
-  
-.masonry-spaced .masonry-item {
-  margin-right: 80px;
-  margin-bottom: 80px;
-  }
+/*portfolio section */
 
 
-.filter {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.filter li {
-    padding: 0 20px 10px 0;
-    margin: 0;
-    display: inline-block;
-    text-align: center;
-}
-
-.align-center .filter li { 
-    padding: 0 10px 10px 10px;
- }
-
-.filter li a {
-  display: block;
-  position: relative;
-  font-family: "Lato";
-  font-size: 12px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: #0d0d0d;
-  line-height: 20px;
-  padding-left: 0.1em;
-  }
-
-.text-light .filter li a { 
-    color: #ffffff;
- }
-  
-.filter li a:after {
-  content:"";
-  position: absolute;
-  bottom: 0;
-  left: 50%; margin-left: -0%;
-  width: 0%;
-  height: 1px;
-  background: #0d0d0d;
-  transition: all 200ms ease;
-  -webkit-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-  }
-  .text-light .filter li a:after { 
-    background: #ffffff; 
-  }
-  
-.filter li a:hover:after, .filter li a.active:after {
-  width: 100%;
-  margin-left: -50%;
-  }
-  
-
-.spacer {
-  width: 100%;
-  display: block;
-}
-#portfolio-filter-masonry {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-@media only screen and (max-width: 1120px)
-.wrapper {
-    width: 730px;
-  }
-
-#portfolio-grid-masonry {
-    position: relative;
-    overflow: hidden;
-    height: 758px
-}  
-
-/*.portfolio-masonry-entry-item  {
-    width: 505px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    transform: translate3d(0px, 0px, 0px) scale3d(0.001, 0.001, 1);
-    opacity: 0;
-}*/
-
-.imgoverlay {
-  position: relative;
-  overflow: hidden;
-  display: block;
-  max-width: 100%;
-  text-align: center;
-}
-
-.imgoverlay img {
-  width: auto;
-  max-width: 100%;
-  border: 0;
-}
-/*.spacer .spacer-small {
-  height: 40px;
-}*/
-
-.align-center .filter li {
-  padding: 0 10px 10px 10px;
-}
-
-.p
-
-/*contact*/
+/**************************** contact section **************************************/
 
 section {
   padding-top: 100px;
